@@ -1,4 +1,8 @@
 @media (max-width:1050px) {
+    .arrow-me::before{
+        height: 240%;
+        width: 200%;
+    }
     .text span{
         font-size: 100px;
     }
@@ -234,7 +238,7 @@
         margin: 0;
     }
     .text span{
-        font-size: 50px;
+        font-size: 40px;
     }
     .form-section{
         padding-bottom: 100px;
