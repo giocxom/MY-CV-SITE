@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Paralax</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+    <a class="logo" href="#">Logo</a>
+    <ul class="menu">
+        <li><a class="active" href="#me-img">About me</a></li>
+        <li><a href="#card-div">Projects</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+    <div class="Rnavigation">
+        <div class="toggle">
+           <span></span>
+        </div>
+        <ul>
+            <li style="--i:0;"><a href="#">About me</a></li>
+            <li style="--i:1;"><a href="#">Projects</a></li>
+            <li style="--i:2;"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    </header>
+    <section class="main-section">
+        <img class="sec-img" src="sky.png" id="sky">
+        <img class="moon" src="sun.png" id="moon">
+        <h2 id="text" class="text">
+            <span> Hello </span>
+                <span>visitor</span>
+            </h2>
+        <a href="#hover-me" id="btn">Explore</a>
+        <img class="sec-img" src="redmountainb.png" id="mountainb">
+    </section>
+    <section class="form-section">
+        <div class="form-section-maindiv">
+            <h2 class="hover-text">
+                <span style="--i:9;">↓</span>
+                <span style="--i:1;">H</span>
+                <span style="--i:2;">o</span>
+                <span style="--i:3;">v</span>
+                <span style="--i:4;">e</span>
+                <span style="--i:5;">r</span>
+                <span style="--i:6;">M</span>
+                <span style="--i:7;">e</span>
+                <span style="--i:8;">↓</span>
+            </h2>
+
+        <div class="hover-div">
+           
+        <div class="hover-me" id="hover-me">
+        <span style="--i:10"></span>
+        <span style="--i:9"></span>
+        <span style="--i:8"></span>
+        <span style="--i:7"></span>
+        <span style="--i:6"></span>
+        <span style="--i:5"></span>
+        <span style="--i:4"></span>
+        <span style="--i:3"></span>
+        <span style="--i:2"></span>
+        <span style="--i:1"></span>
+       </div>
+    </div>
+    <!-- <div class="box" style="display:none ;">
+        <div class="form">
+            <form class="inputBox">
+                 <input
+            </form>
+        </div> -->
+        <div class="me-main">
+            <div class="me-img" id="me-img">
+              <img src="ME1.jpg">
+            </div>
+            <div class="me-info">
+                <h2>Hello my name is</h2>
+                <h2 data-text="Giorgi Tskhomelidze"> Giorgi Tskhomelidze</h2>
+                <p> I am junior Front End Developer</p>
+                <p>I started learning front end 2 years ago, I started with 
+                    HTML CSS courses after which I 
+                    got a great interest in website development!!!</p>
+                    <br>
+                    <p>Click to view more</p>
+             <div class="arrow-me">
+                <a href="#card-div">↓</a>
+            </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+     </section>
+     <section class="continue">
+        <div class="continue-main">
+        <div class="continue-text-div">
+            <h2>Then i decided to continue</h2>
+            <p>And began to study JavaScript,
+                I completed courses at the 
+                Georgian American University of Geolab, learned Javascript and React JS</p>
+        </div>
+        
+        <div class="slider-div">
+          <img src="./S3.jpg" id="slider-img">
+          <ul>
+            <li onclick="imgSlider('S3.jpg')"><img src="./S3.jpg"></li>
+            <li onclick="imgSlider('S1.png  ')"><img src="./S1.png"></li>
+            <li onclick="imgSlider('S2.jpg')"><img src="./S2.jpg"></li>
+          </ul>
+        </div>
+
+
+        <div class="card-main-div">
+        <div class="card-div">
+            <span></span>
+            <div class="card-container">
+                <h2>JavaScript Project</h2>
+                <p>All my projects are responsive,
+                     consectetur adipisicing elit.
+                      Nam iure mollitia beatae? Esse doloremque i</p>
+                      <a href="#">Link</a>
+            </div>
+        </div>
+        <div class="card-div" id="card-div">
+            <span></span>
+            <div class="card-container">
+                <h2>React JS Project</h2>
+                <p>
+                    All my projects are responsive, 
+                    i used data from JSON file to build site in this project
+                </p>
+                      <a href="#">Link</a>
+            </div>
+        </div>
+        <div class="card-div">
+            <span></span>
+            <div class="card-container">
+                <h2>My GITHUB</h2>
+                <p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit.
+                      Nam iure mollitia beatae? Esse doloremque i</p>
+                      <a href="#">Link</a>
+            </div>
+        </div>
+        </div>
+        </div>
+     </section>
+     <footer>
+        <div class="last-div">
+        <div class="footer-main-div">
+        <div class="contact-div">
+            <h2>Contact</h2>
+            <p>Email : giorgi.tskhomelidze98@gmail.com</p>
+            <p>Tel: +995 555 17 34 ; +995 574 02 06 99</p>
+            <p>Location: Georgia, Tbilisi</p>
+        </div>
+        <div class="knowladge">
+            <h2>Knowladge</h2>
+            <p>HTML,CSS,SCSS</p>
+            <div><div class="div1"></div></div>
+
+            <p>React JSS</p>
+            <div><div class="div2"></div></div>
+
+            <p>JavasCript</p>
+            <div><div class="div3"></div></div>
+        </div>
+        <div class="TIC-main">
+            <div class="title">
+            <h2>Let's play</h2>
+            </div>
+            <div class="display">
+               Player <span class="display-player playerX">X</span>'s turn
+            </div>
+            <div class="container">
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+                <div class="tile"></div>
+            </div>
+            <div class="display announcer hide"> </div>
+            <div class="controls">
+                 <button id="reset">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Reset</button>
+            </div>
+        </div>
+    </div>
+    </div>
+     </footer>
+    <script>
+       
+
+let stars = document.querySelector('#sky');
+let moon = document.querySelector('#moon');
+let mountainb = document.querySelector('#mountainb');
+let text = document.querySelector('#text');
+let btn = document.querySelector('#btn');
+let header = document.querySelector('header');
+
+window.addEventListener('scroll',function(){
+    let value = window.scrollY;
+    stars.style.left = value* 0.25 + 'px';
+    moon.style.top = value* 1.05 + 'px';
+    mountainb.style.top = value* 0.3 + 'px';
+    text.style.marginLeft= value* 5 + 'px';
+    btn.style.marginTop = value* 1.5 + 'px';
+    header.style.top = value* 0.8 + 'px';
+
+
+});
+function imgSlider(slider){
+    document.getElementById("slider-img").src=slider;
+};
+
+let Rnavigation = document.querySelector('.Rnavigation');
+document.querySelector('.toggle').onclick = function(){
+    this.classList.toggle('Ractive');
+    Rnavigation.classList.toggle('Ractive');
+}
+    </script>
+    <script>
+        
+    </script>
+</body>
+</html>

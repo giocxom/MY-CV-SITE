@@ -1,0 +1,277 @@
+@media (max-width:1050px) {
+    .text span{
+        font-size: 100px;
+    }
+    .contact-div{
+        margin: 50px;
+        text-align: center;
+    }
+    .card-div{
+        width: 250px;
+        height: 350px;
+    }
+    .card-container h2{
+        font-size: 20px;
+    }
+    .card-container p{
+        font-size: 14px;
+    }
+    .card-container a{
+        font-size: 14px;
+        width: 100px;
+    }
+    #slider-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .slider-div{
+        height: 65vh;
+    }
+    .slider-div ul{
+        bottom: 5%;
+    }
+    .hover-div{
+        margin-left: 50px;
+    }
+    .hover-me span{
+        width: 150px;
+        height: 20px;
+    }
+    .hover-me span::before{
+        height: 20px;
+    }
+    .hover-text{
+        left: 70px;
+    }
+    #moon{
+        width: 20%;
+    }
+    .menu{
+
+        display: none;
+    }
+    .Rnavigation{
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        height: 20px;
+        width: 250px;
+        z-index: 19;
+    }
+    .toggle{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 50px;
+        background: linear-gradient(200deg,rgb(28, 5, 34),#2d0147);
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #ff216d;
+        padding: 5px 20px;
+    }
+    .toggle::before{
+        content: 'Menu';
+        margin-right: 20px;
+    }
+    .toggle.Ractive::before{
+        content: 'Close';
+    }
+    .toggle span{
+        position: relative;
+        width: 20px;
+        height: 50px;
+    }
+    .toggle span::before{
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #ff216d;
+        transition: 0.5s;
+    }
+    .toggle span::after{
+        content: '';
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #ff216d;
+        transition: 0.5s;
+    }
+    .toggle.Ractive span::before{
+        transform: rotate(225deg);
+        top: 24px;
+    }
+    .toggle.Ractive span::after{
+        transform: rotate(135deg);
+        bottom: 24px;
+    }
+    .Rnavigation ul{
+        position: relative;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .Rnavigation ul li{
+        position: relative;
+        list-style: none;
+        transition: 0.5s;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(-250px);
+        transition-delay: calc(0.1s*var(--i));
+        
+    }
+    .Rnavigation.Ractive ul li{
+        transition: 0.5s;
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+        transition-delay: calc(0.1s*var(--i));
+    }
+    .Rnavigation ul li a{
+        position: relative;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        height: 50px;
+        background: linear-gradient(200deg,rgb(28, 5, 34),#2d0147);
+        color: #ff216d;
+        border-radius: 0;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 85px;
+        
+    }
+}
+@media (max-width:850px) {
+    .text span{
+        font-size: 70px;
+    }
+    .footer-main-div{
+        padding: 50px;
+    }
+    .form-section-maindiv{
+        flex-direction: column-reverse;
+    }
+    .hover-text{
+        top: 60%;
+        left: 25%;
+    }
+    .me-img{
+        top: 30px;
+    }
+    .hover-me::before {
+        top: 80px;
+    }
+    #moon{
+        width: 35%;
+    }
+    .hover-div{
+        display: none;
+    }
+    .hover-text{
+        display: none;
+    }
+    
+}  
+@media (max-width:800px) {
+    .card-main-div{
+        flex-wrap: wrap;
+    }
+    .card-div{
+       margin: 50px;
+    }
+    #btn{
+        font-size: 20px;
+    }
+    .hover-div{
+        display: none;
+    }
+    .hover-text{
+        display: none;
+    }
+    
+}
+@media (max-width:600px) {
+    .slider-div ul li img{
+        width: 100px;
+        height: 70px;
+        border: 4px solid #fff;
+        border-radius: 4px;
+    }
+    .slider-div ul li{
+       margin: 0;
+       padding: 5px;
+    }
+    header{
+        padding: 5px;
+    }
+    .Rnavigation{
+        top: 100px;
+        left: 0px;
+        margin: 0;
+    }
+    .text span{
+        font-size: 50px;
+    }
+    .form-section{
+        padding-bottom: 200px;
+    }
+    .knowladge{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:400px){
+    .text span{
+        font-size: 30px;
+    }
+    .form-section{
+        padding-bottom: 300px;
+    }
+    .me-img img{
+        width: 200px;
+        height: 200px;
+    }
+    .me-info{
+        padding-top: 300px;
+    }
+    .slider-div ul li img{
+        width: 70px;
+        height: 40px;
+        border: 4px solid #fff;
+        border-radius: 4px;
+    }
+    .slider-div ul{
+        bottom: 100px;
+    }
+    .me-info h2{
+        font-size: 15px;
+    }
+    .last-div::before{
+        
+        width: 700%;
+        height: 700%;
+    }
+    .contact-div h2{
+        font-size: 30px;
+
+    }
+    .contact-div p{
+        font-size: 12px;
+        
+    }
+    
+}
